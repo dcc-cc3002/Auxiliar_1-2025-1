@@ -1,12 +1,15 @@
 object Yapper {
 
-  val greeting:String=""
-  val farewell:String=""
+  val greeting:String="Hello my fellow memeros"
+  val farewell:String="Farewell my tiny memeros"
+  
   def main(args: Array[String]): Unit = {
-    println("Hello my fellow memeros")
+    say(greeting)
+    say(farewell)
   }
 
   def say(something:String):Unit={
+    println(something)
 
   }
 }
